@@ -33,7 +33,19 @@
     "onStartupFinished"
   ],
   "contributes": {
-    "commands": [],
+    "commands": [
+      {
+        "command": "gerson-utils.insertConsoleLog",
+        "title": "Insert Console Log for Copied Variable"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "gerson-utils.insertConsoleLog",
+        "key": "shift+alt+v",
+        "when": "editorTextFocus"
+      }
+    ],
     "configuration": {
       "type": "object",
       "title": "Gerson Utils",

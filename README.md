@@ -19,7 +19,9 @@ A collection of handy VS Code utilities to improve development efficiency. This 
 
 <!-- commands -->
 
-**No data**
+| Command                         | Title                                  |
+| ------------------------------- | -------------------------------------- |
+| `gerson-utils.insertConsoleLog` | Insert Console Log for Copied Variable |
 
 <!-- commands -->
 
