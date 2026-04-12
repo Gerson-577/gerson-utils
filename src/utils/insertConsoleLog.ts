@@ -20,7 +20,7 @@ export async function insertConsoleLog() {
     const variableName = clipboardText.trim()
 
     // 构建 console.log 语句
-    const consoleLogStatement = `console.log("🚀 22 ~ ${variableName}:", ${variableName})\n`
+    const consoleLogStatement = `console.log("🚀 ~ ${variableName}:", ${variableName})\n`
 
     // 在当前光标位置插入 console.log 语句
     await editor.edit((editBuilder) => {
