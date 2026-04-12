@@ -2,7 +2,7 @@
   "publisher": "Gerson-577",
   "name": "gerson-utils",
   "displayName": "Gerson Utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "packageManager": "pnpm@10.27.0",
   "description": "A collection of handy VS Code utilities to improve development efficiency",
