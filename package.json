@@ -64,7 +64,7 @@
     "release": "bumpp",
     "ext:package": "vsce package --no-dependencies",
     "ext:publish": "vsxpub --no-dependencies",
-    "ext:publishOvsx":"ovsx publish --no-dependencies"
+    "ext:publishOvsx": "ovsx publish --no-dependencies"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.7.3",

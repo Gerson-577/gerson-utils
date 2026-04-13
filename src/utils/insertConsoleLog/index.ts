@@ -1,6 +1,6 @@
 import { commands, env, window } from 'vscode'
 
-export async function insertConsoleLog() {
+async function insertConsoleLog() {
   try {
     // 获取当前编辑器
     const editor = window.activeTextEditor
@@ -35,3 +35,5 @@ export async function insertConsoleLog() {
     window.showErrorMessage('Failed to insert console.log statement')
   }
 }
+
+export default insertConsoleLog
